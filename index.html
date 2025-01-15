@@ -9,6 +9,110 @@
 
 <!--Navbar -->
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TesiStat Solution</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            margin-top: 20px;
+        }
+
+        .nav-bar {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .nav-bar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+            border: 1px solid #000;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .content > div {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .banner {
+            border: 2px solid green;
+            padding: 10px;
+        }
+
+        .testimonials {
+            grid-column: span 3;
+            border: 2px solid orange;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        .testimonials img {
+            max-width: 100px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TesiStat Solution</h1>
+        <p>Estadística para la investigación</p>
+    </header>
+
+    <nav class="nav-bar">
+        <a href="#">¿Quiénes somos?</a>
+        <a href="#">Nuestros servicios</a>
+        <a href="#">Costos y beneficios</a>
+        <a href="#">Contáctanos (formulario)</a>
+    </nav>
+
+    <div class="content">
+        <div class="videos">
+            <h3>Videos de recomendaciones, tutoriales, etc.</h3>
+        </div>
+        <div class="banner">
+            <h3>Banner secuencial</h3>
+            <img src="banner1.jpg" alt="Banner 1">
+            <img src="banner2.jpg" alt="Banner 2">
+            <img src="banner3.jpg" alt="Banner 3">
+        </div>
+        <div class="theory">
+            <h3>Contenido teórico</h3>
+        </div>
+        <div class="universities">
+            <h3>Secuencia de imágenes de universidades</h3>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <h3>Testimonios de clientes satisfechos</h3>
+        <img src="testimonial1.jpg" alt="Testimonio 1">
+        <img src="testimonial2.jpg" alt="Testimonio 2">
+        <img src="testimonial3.jpg" alt="Testimonio 3">
+    </div>
+</body>
+</html>
+
+
 
 <!--banner secuencial -->
 

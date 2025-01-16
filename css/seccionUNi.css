@@ -1,0 +1,59 @@
+/* Contenedor del slider con botones */
+.universidades-carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .universidades-carousel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+  }
+  
+  /* Botones de navegación */
+  .carousel-prev, .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0.8;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .carousel-prev {
+    left: 10px;
+  }
+  
+  .carousel-next {
+    right: 10px;
+  }
+  
+  .carousel-prev:hover, .carousel-next:hover {
+    opacity: 1;
+  }
+  
+  .carousel-prev:focus, .carousel-next:focus {
+    outline: none;
+  }
+  
+  /* Ajuste para pantallas pequeñas */
+  @media (max-width: 576px) {
+    .carousel-prev, .carousel-next {
+      padding: 8px 12px;
+      font-size: 1.2rem;
+    }
+  }
+  

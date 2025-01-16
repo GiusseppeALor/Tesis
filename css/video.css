@@ -1,0 +1,184 @@
+/* Estilos mejorados para dispositivos móviles */
+
+/* Base */
+.video-section {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.video-text {
+    flex: 1;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.video-text h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.video-text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.video-link {
+    font-size: 1.2rem;
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.video-wrapper {
+    position: relative;
+    max-width: 500px;
+    flex: 1;
+    text-align: right;
+}
+
+.video-frame {
+    border: 2px solid #FFD700;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.video-frame video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video-number {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 4rem;
+    color: #FFD700;
+    font-weight: bold;
+    z-index: 2;
+}
+
+/* Navegación */
+.video-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.nav-arrow {
+    font-size: 1rem;
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid #FFD700;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-arrow:hover {
+    background-color: #FFD700;
+    color: #000;
+}
+
+.nav-arrow.prev::before {
+    content: "\276E";
+    margin-right: 5px;
+}
+
+.nav-arrow.next::after {
+    content: "\276F";
+    margin-left: 5px;
+}
+
+/* Mejora para dispositivos móviles */
+@media (max-width: 768px) {
+    .video-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px; /* Espaciado entre texto y video */
+    }
+
+    .video-text {
+        padding: 0;
+        text-align: center;
+    }
+
+    .video-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .video-text p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .video-link {
+        font-size: 1rem;
+    }
+
+    .video-wrapper {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .video-frame {
+        max-width: 100%; /* Video ocupa todo el ancho en móvil */
+    }
+
+    .video-number {
+        top: 10px;
+        right: 10px;
+        font-size: 2.5rem;
+    }
+
+    .video-navigation {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .nav-arrow {
+        font-size: 0.9rem;
+        padding: 5px 8px;
+    }
+}
+
+/* Para pantallas muy pequeñas (576px o menos) */
+@media (max-width: 576px) {
+    .video-text h2 {
+        font-size: 1.6rem;
+    }
+
+    .video-text p {
+        font-size: 0.9rem;
+    }
+
+    .video-link {
+        font-size: 0.9rem;
+    }
+
+    .video-number {
+        font-size: 2rem;
+    }
+
+    .video-navigation {
+        gap: 5px;
+    }
+}

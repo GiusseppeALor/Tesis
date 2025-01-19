@@ -1,0 +1,104 @@
+/* Estilos generales del footer */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px;
+    font-size: 14px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #f1c40f;
+  }
+  
+  .footer-about p {
+    line-height: 1.6;
+    margin: 0;
+    max-width: 300px;
+  }
+  
+  /* Enlaces de navegación */
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #f1c40f;
+  }
+  
+  /* Información de contacto */
+  .footer-contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-contact ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Redes sociales */
+  .footer-socials {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer-socials .social-link {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-socials .social-link:hover {
+    color: #f1c40f;
+  }
+  
+  /* Footer inferior */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #444;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 13px;
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-about p {
+      max-width: none;
+    }
+  }
+  

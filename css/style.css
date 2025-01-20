@@ -59,8 +59,13 @@ header {
     text-shadow: 2px 2px 4px #000; /* Sombra para mayor visibilidad */
   }
 
-  .carousel-text {
+.carousel-text {
     font-size: 1.2rem; /* Tamaño más grande para el texto */
     color: #ffffff; /* Color blanco */
     text-shadow: 1px 1px 3px #000; /* Sombra para mejorar la legibilidad */
+}
+
+.carousel-control-prev,
+  .carousel-control-next {
+    color: rgb(255, 242, 0); /* Fondo semitransparente */
   }

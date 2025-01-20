@@ -1,4 +1,3 @@
-/* Estilos generales del footer */
 .footer {
     background-color: #222;
     color: #fff;
@@ -27,7 +26,6 @@
     max-width: 300px;
   }
   
-  /* Enlaces de navegación */
   .footer-links ul {
     list-style: none;
     padding: 0;
@@ -48,7 +46,6 @@
     color: #f1c40f;
   }
   
-  /* Información de contacto */
   .footer-contact ul {
     list-style: none;
     padding: 0;
@@ -59,24 +56,29 @@
     margin-bottom: 10px;
   }
   
-  /* Redes sociales */
+  .footer-socials img {
+    width: 24px; 
+    height: 24px; 
+  }
+  
+  .footer-socials .social-link i {
+    font-size: 16px; 
+    color: #3b5998;
+  }
+  
   .footer-socials {
     display: flex;
-    gap: 15px;
+    align-items: center;
+    gap: 8px; 
   }
   
-  .footer-socials .social-link {
-    color: #fff;
-    font-size: 20px;
-    text-decoration: none;
-    transition: color 0.3s ease;
+  .footer-socials h3 {
+    font-size: 18px; 
+    margin-right: 10px; 
   }
   
-  .footer-socials .social-link:hover {
-    color: #f1c40f;
-  }
   
-  /* Footer inferior */
+ 
   .footer-bottom {
     text-align: center;
     margin-top: 20px;
@@ -89,7 +91,6 @@
     font-size: 13px;
   }
   
-  /* Responsividad */
   @media (max-width: 768px) {
     .footer-container {
       flex-direction: column;

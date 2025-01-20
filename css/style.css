@@ -52,3 +52,15 @@ header {
     max-width: 100px;
     margin: 5px;
 }
+
+.carousel-title {
+    font-size: 2rem; /* Tamaño del título más grande */
+    color: #ffd700; /* Color amarillo dorado */
+    text-shadow: 2px 2px 4px #000; /* Sombra para mayor visibilidad */
+  }
+
+  .carousel-text {
+    font-size: 1.2rem; /* Tamaño más grande para el texto */
+    color: #ffffff; /* Color blanco */
+    text-shadow: 1px 1px 3px #000; /* Sombra para mejorar la legibilidad */
+  }

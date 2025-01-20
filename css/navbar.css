@@ -39,7 +39,7 @@ body {
   }
 
   .btn-primary {
-    background-color: #2fff00;
+    background-color: #0e0e4b;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -52,7 +52,7 @@ body {
   }
 
   .btn-primary:hover {
-    background-color: #2fff00;
+    background-color: #0e0e4b;
     transform: scale(1.05);
   }
 

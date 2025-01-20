@@ -34,12 +34,12 @@ body {
 
   .navbar-menu .menu-item:hover {
     color: #fff;
-    background-color: #8000ff;
+    background-color: #0e0e4b;
     border-radius: 5px;
   }
 
   .btn-primary {
-    background-color: #8000ff;
+    background-color: #2fff00;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -52,7 +52,7 @@ body {
   }
 
   .btn-primary:hover {
-    background-color: #6c00d8;
+    background-color: #2fff00;
     transform: scale(1.05);
   }
 
